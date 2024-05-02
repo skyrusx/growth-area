@@ -1120,7 +1120,11 @@
 	.pricing-box:hover .pricing {
 		background-color:#ededed;
 	}
-		
+	
+	.pricing-box .preview img {
+		max-width: 150px;
+		margin-bottom: 15px;
+	}
 		
 /*	################################################################
 	11. TEAM SECTION
