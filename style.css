@@ -134,6 +134,10 @@
 		text-transform:uppercase;
 		font-weight:600;
 	}
+
+	.header.affix-top .navbar-default .navbar-nav > li > a {
+		color:#000;
+	}
 	
 	.navbar-default .navbar-nav > li > a:hover,
 	.navbar-default .navbar-nav > li > a:focus,
@@ -148,6 +152,13 @@
 		background:none;
 		border-bottom: 1px solid #fff;
 		color: #FFFFFF;
+	}
+
+	.header.affix-top .navbar-default .navbar-nav > .active > a,
+	.header.affix-top .navbar-default .navbar-nav > .active > a:hover,
+	.header.affix-top .navbar-default .navbar-nav > .active > a:focus {
+		border-bottom: 1px solid #000000;
+		color: #000000;
 	}
 	
 	.feature-img img {
