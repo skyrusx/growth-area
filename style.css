@@ -48,6 +48,33 @@
 	
 	.main {
 		height: 100vh;
+		position: relative;
+	}
+
+	.main .list-buttons__wrapper {
+		position: absolute;
+		bottom: 10%;
+	}
+
+	.main .list-buttons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2em;
+		margin-top: 2em;
+	}
+
+	.main .list-buttons .main-button {
+		background: #e8d6b1;
+		border: .125em solid #ab824d;
+		border-radius: 6.25em;
+		padding: 1em 1.5em;
+		text-align: center;
+	}
+
+	.main .list-buttons .main-button a {
+		color: #552e00;
+		font-size: 1.5em;
+		text-decoration: none;
 	}
 	
 	img.aligncenter {
