@@ -252,7 +252,7 @@
 	
 	.title p {
 		letter-spacing:1px;
-		color:#999999;
+		color: #552e00;
 	}
 	
 		
@@ -756,7 +756,7 @@
 		}
 	.about-box {
 		margin:40px 0;
-		color:#999999;
+		color: #552e00;
 		padding:0;
 	}
 	
@@ -774,7 +774,7 @@
 	
 	.how-box {
 		margin:60px 40px 0;
-		color:#999999;
+		color: #552e00;
 		padding:0;
 	}
 	
@@ -830,7 +830,7 @@
 	}
 	.service-box {
 		margin:40px 0;
-		color:#999999;
+		color:#552e00;
 		padding:0;
 	}
 	
@@ -928,7 +928,7 @@
 	.testimonial p {
 		font-weight: 600;
 		font-size: 15px;
-		color: #999;
+		color: #552e00;
 		padding: 30px 0 2px 0px;
 	}
 	
