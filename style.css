@@ -43,6 +43,7 @@
 		background-image: url(/images/slider/slide_01.png);
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: center;
 	}
 	
 	.main {
