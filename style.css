@@ -2624,3 +2624,9 @@
 .logo-border img {
 	width: 110px;
 }
+
+@media (max-width: 768px) {
+	body {
+		background-position: left 25% center;
+	}
+}
