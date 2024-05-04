@@ -1725,11 +1725,14 @@
 	.transparent .title h2,
 	span.commenthr,
 	.comment-section h6 hr,
-	.team-box p,
 	.milestone-details,
 	.category-list li:hover
 	{
 		border-color: #6DFF46 !important;
+	}
+
+	.team-box p {
+		border-color: #552e00 !important;
 	}
 
 	.portfolio-filter li a:hover ,
@@ -1759,7 +1762,6 @@
 
 	.tparrows,
 	.pricing-box:hover:after,
-	.team-box p:after,
 	.milestone-details:after,
 	.navbar-nav > li.active > a:after,
 	.navbar-nav > li > a:hover:after,
@@ -1769,7 +1771,6 @@
 	.portfolio-filter li.active:after,	
 	.portfolio-filter li a:hover:after,
 	.bottomline:after,
-	.team-box p:before,
 	.milestone-details:before,
 	.navbar-nav > li.active > a:before,
 	.navbar-nav > li > a:hover:before,
@@ -1787,6 +1788,11 @@
 	.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary 
 	{
 		background-color: #6DFF46 !important;
+	}
+
+	.team-box p:before,
+	.team-box p:after {
+		background-color: #552e00 !important;
 	}
 
 	.pricing-box:hover:before,
