@@ -939,7 +939,7 @@
 	}
 	
 	.fa-2x {
-		color: #ABABAB;
+		color: #587e1e;
 	}
 	
 /*	################################################################
@@ -1733,7 +1733,6 @@
 	}
 
 	.portfolio-filter li a:hover ,
-	.testimonial h1 ,
 	.how-box-head h3,
 	.jtbtn ,
 	.post-meta a,
@@ -1742,6 +1741,10 @@
 	.hovereffect h5
 	{
 		color: #6DFF46 !important;
+	}
+
+	.testimonial h1 {
+		color: #587e1e !important;
 	}
 
 	.pricing-box:hover {
