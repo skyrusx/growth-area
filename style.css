@@ -1068,7 +1068,6 @@
 		display:none !important;
 	}
 	.pricing-box:hover .hideme {
-		background: none repeat scroll 0 0 #fff;
 		display: block !important;
 		position: absolute;
 		left: 0;
@@ -1078,7 +1077,7 @@
 		margin: auto;
 	}
 	.pricing-box {
-		border-top: 1px solid #E6E6E6;
+		border-top: 1px solid #587e1e;
 		text-align:center;
 		margin:40px 0;
 		padding:20px;
@@ -1710,7 +1709,6 @@
 	.tp-bullets.simplebullets .bullet.selected,
 	.portfolio-filter li.active,
 	.portfolio-filter li a:hover,
-	.pricing-box:hover,
 	.jtbtn,
 	.btn-primary,
 	.btn-contact:hover,
@@ -1737,16 +1735,23 @@
 	.portfolio-filter li a:hover ,
 	.testimonial h1 ,
 	.how-box-head h3,
-	.pricing-box:hover,
 	.jtbtn ,
 	.post-meta a,
 	.category-list li a:hover ,
 	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus ,
-	.pricing-box:hover .price-value,
-	.pricing-box:hover .price-month,
 	.hovereffect h5
 	{
 		color: #6DFF46 !important;
+	}
+
+	.pricing-box:hover {
+		border-color: #552e00 !important;
+	}
+
+	.pricing-box:hover,
+	.pricing-box:hover .price-value,
+	.pricing-box:hover .price-month {
+		color: #552e00 !important;
 	}
 
 	.tparrows,
@@ -1775,10 +1780,15 @@
 	.topline:after,
 	.milestone-details:after,
 	.milestone-details:before,
-	.category-list li:hover:before, .category-list li:hover:after, .pricing-box:hover:before, .pricing-box:hover:after,
+	.category-list li:hover:before, .category-list li:hover:after,
 	.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary 
 	{
 		background-color: #6DFF46 !important;
+	}
+
+	.pricing-box:hover:before,
+	.pricing-box:hover:after {
+		background-color: #552e00 !important;
 	}
 
 	.testimonial h2:before,
@@ -2441,7 +2451,7 @@
 	/** Grey Color - Top Line Corner */
  	.pricing-box:after
 	 {
-		background: none repeat scroll 0 0 #DDD;
+		background: none repeat scroll 0 0 #587e1e;
 		content: "";
 		display: block;
 		height: 10px;
@@ -2454,7 +2464,7 @@
 	
 	.pricing-box:before
 	{
-		background: none repeat scroll 0 0 #DDD;
+		background: none repeat scroll 0 0 #587e1e;
 		content: "";
 		display: block;
 		height: 10px;
