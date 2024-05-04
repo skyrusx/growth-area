@@ -221,17 +221,17 @@
 	
 	.borderright {
 		padding:0 25px;
-		border-right:1px solid #dddddd;
+		border-right:1px solid #587e1e;
 	}
 	
 	.borderleft {
 		padding:0 25px;
-		border-left:1px solid #dddddd;
+		border-left:1px solid #587e1e;
 	}
 	
 	.title hr {
 		width:40%;
-		border-color:#dddddd;
+		border-color:#587e1e;
 	}
 	
 	
@@ -1715,7 +1715,6 @@
 	.jtbtn,
 	.btn-primary,
 	.btn-contact:hover,
-	.testimonial h2,
 	.logo-border,
 	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
 	.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary,
@@ -1754,7 +1753,6 @@
 	.tparrows,
 	.pricing-box:hover:after,
 	.team-box p:after,
-	.testimonial h2:after,
 	.milestone-details:after,
 	.navbar-nav > li.active > a:after,
 	.navbar-nav > li > a:hover:after,
@@ -1765,7 +1763,6 @@
 	.portfolio-filter li a:hover:after,
 	.bottomline:after,
 	.team-box p:before,
-	.testimonial h2:before,
 	.milestone-details:before,
 	.navbar-nav > li.active > a:before,
 	.navbar-nav > li > a:hover:before,
@@ -1784,7 +1781,15 @@
 	{
 		background-color: #6DFF46 !important;
 	}
-	
+
+	.testimonial h2:before,
+	.testimonial h2:after {
+		background-color: #587e1e !important;
+	}
+
+	.testimonial h2 {
+		border-color: #587e1e !important
+	}
 	
 /*	################################################################
 	17. BLOG SECTION
@@ -2257,7 +2262,7 @@
 	}
 	
 	.service-border {
-	border-right: 1px solid #DDD;
+	border-right: 1px solid #587e1e;
 	position: relative;
 	float: left;
 	height: 40px;
@@ -2298,7 +2303,7 @@
 	.service-border:after,
 	.borderright:after
 	 {
-		background: none repeat scroll 0 0 #DDD;
+		background: none repeat scroll 0 0 #587e1e;
 		content: "";
 		display: block;
 		height: 1px;
@@ -2313,7 +2318,7 @@
 	.service-border:before,
 	.borderright:before
 	{
-		background: none repeat scroll 0 0 #DDD;
+		background: none repeat scroll 0 0 #587e1e;
 		content: "";
 		display: block;
 		height: 1px;
@@ -2328,7 +2333,7 @@
 	.category-list li:after,
 	.borderleft:after
 	 {
-		background: none repeat scroll 0 0 #DDD;
+		background: none repeat scroll 0 0 #587e1e;
 		content: "";
 		display: block;
 		height: 1px;
@@ -2342,7 +2347,7 @@
 	.category-list li:before,
 	.borderleft:before
 	{
-		background: none repeat scroll 0 0 #DDD;
+		background: none repeat scroll 0 0 #587e1e;
 		content: "";
 		display: block;
 		height: 1px;
@@ -2623,6 +2628,24 @@
 
 .logo-border img {
 	width: 110px;
+}
+
+.contact-info {
+	background-color: #e8d6b1;
+	border-radius: 1.5em;
+	border: 1px solid #633810;
+	padding: .125em;
+	width: 100%;
+	height: 2.625em;
+	margin-bottom: 15px;
+	color: black;
+}
+
+.contact-info a {
+	color: #552e00;
+	font-size: 1.125em;
+	font-weight: 500;
+	line-height: 2.1em;
 }
 
 @media (max-width: 768px) {
