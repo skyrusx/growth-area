@@ -594,6 +594,8 @@
           его уровни. Многие с подобными открытиями сталкиваются впервые.</p>
         <p>Открыт для общения, оказываю поддержку и помощь в отношениях к себе и окружающим.</p>
         <p>С уважением Алексей.</p>
+
+        <button type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Закрыть</button>
       </div>
     </div>
   </div><!-- Modal Team 1 End -->
@@ -620,6 +622,8 @@
           и выбрала себя.</p>
         <p>На данный момент занимаюсь проектами с дизайнером - выполняю дизайн проектов квартир и домов в
           центральной части России.</p>
+
+        <button type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Закрыть</button>
       </div>
     </div>
   </div><!-- Modal Team 3 End -->
@@ -641,6 +645,8 @@
         <p>Я всегда готова ответить на ваши вопросы и предоставить профессиональную поддержку на каждом этапе сделки.
           Доверьте мне заботу о вашей недвижимости, и вы получите надежного партнера, готового помочь вам воплотить в
           жизнь ваши жилищные мечты. Свяжитесь со мной, и мы вместе найдем идеальное решение для вас!</p>
+
+        <button type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Закрыть</button>
       </div>
     </div>
   </div><!-- Modal Team 4 End -->
@@ -674,6 +680,8 @@
         <p>Обращайся ко мне, если ты готов к переменам и хочешь жить полной, счастливой жизнью. Давай вместе сделаем
           твой мир лучше!</p>
         <p>С уважением, Инна.</p>
+
+        <button type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Закрыть</button>
       </div>
     </div>
   </div><!-- Modal Team 5 End -->
@@ -702,6 +710,8 @@
           построить бизнес, о котором вы всегда мечтали.</p>
         <p><b>Ваш успех начинается здесь и сейчас!</b></p>
         <p>С уважением и верой в ваши возможности, Елена Петрова.</p>
+
+        <button type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Закрыть</button>
       </div>
     </div>
   </div><!-- Modal Team 7 End -->
@@ -728,6 +738,8 @@
           </br> - Таролог.</p>
         <p>Индивидуальные сессии (очно и онлайн)</p>
         <p>Групповые встречи по теме нумерологии и психологии.</p>
+
+        <button type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Закрыть</button>
       </div>
     </div>
   </div><!-- Modal Team 8 End -->
@@ -764,6 +776,8 @@
         <p>Позвольте мне сделать вашу жизнь ярче, ваш бизнес успешнее, а ваш мир - лучше. Наши взаимодействия - ваш
           ключ к новым возможностям.</p>
         <p>С уважением, Юрий.</p>
+
+        <button type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Закрыть</button>
       </div>
     </div>
   </div><!-- Modal Team 9 End -->
@@ -796,6 +810,8 @@
         <p>Буду рад видеть вас среди моих клиентов и помочь достичь новых высот в вашем бизнесе и финансовых
           начинаниях.</p>
         <p>С уважением, Игорь</p>
+
+        <button type="button" class="btn btn-success" data-dismiss="modal" aria-hidden="true">Закрыть</button>
       </div>
     </div>
   </div><!-- Modal Team 11 End -->
@@ -953,7 +969,9 @@
 </script>
 <script>
   jQuery(document).ready(function() {
-    $('body').on('hidden.bs.modal','.modal',function(){ $(this).removeData('bs.modal');});
+    $('.navbar-collapse a').click(function(){
+      $(".navbar-collapse").collapse('hide');
+    });
   })
 </script>
 </body>
