@@ -2714,3 +2714,16 @@
 	background-size: contain;
 	background-attachment: fixed, fixed;
 }
+
+.modal-dialog .close {
+	width: 40px;
+	height: 40px;
+	z-index: 1000;
+	display: block;
+	position: absolute;
+	right: 0;
+	font-size: 40px;
+	opacity: unset;
+	text-shadow: unset;
+	color: #552e00;
+}
