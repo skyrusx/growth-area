@@ -1189,7 +1189,11 @@
 		margin:40px 0;
 		color:#587e1e;
 		padding:0;
-		}
+	}
+
+	.team-box .info {
+		border-bottom: 1px solid;
+	}
 	
 	.team-box h3 {
 		margin: 20px 0;
@@ -1204,8 +1208,20 @@
 		font-weight: 500;
 		font-size: 12px;
 		text-transform: uppercase;
-		border-bottom: 1px solid;
-		padding-bottom: 20px;
+	}
+	
+	.team-box .info {
+		color: #552e00;
+		font-size: 14px;
+		/*padding-bottom: 20px;*/
+		text-transform: uppercase;
+	}
+	
+	.team-box .info p {
+		text-transform: unset;
+		font-size: 14px;
+		cursor: pointer;
+		color: #552e00;
 	}
 	
 	.team-social-icons img {
@@ -1790,8 +1806,8 @@
 		background-color: #6DFF46 !important;
 	}
 
-	.team-box p:before,
-	.team-box p:after {
+	.team-box .info:before,
+	.team-box .info:after {
 		background-color: #552e00 !important;
 	}
 
@@ -2488,8 +2504,9 @@
 	
 		
 	/* Blue Color Bottom Line Corners */
-	
-	.team-box p:after,
+
+	.team-box .info:after,
+	/*.team-box p:after,*/
 	.testimonial h2:after,
 	.milestone-details:after,
 	.navbar-nav > li.active > a:after,
@@ -2512,7 +2529,8 @@
 		bottom:0;
 	}
 	
-	.team-box p:before,
+	.team-box .info:before,
+	/*.team-box p:before,*/
 	.testimonial h2:before,
 	.milestone-details:before,
 	.navbar-nav > li.active > a:before,
@@ -2672,4 +2690,27 @@
 	body {
 		background-position: left 25% center;
 	}
+}
+
+.modal {
+	margin-bottom: 10px;
+}
+
+.modal-dialog {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100px;
+	bottom: 0;
+	margin: auto;
+}
+
+.modal-content {
+	padding: 15px 50px;
+	color: #552e00;
+	background-image: url(images/pattern_bg.png);
+	background-position: 50%;
+	background-repeat: repeat;
+	background-size: contain;
+	background-attachment: fixed, fixed;
 }
