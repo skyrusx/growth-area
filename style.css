@@ -2728,20 +2728,19 @@
 	color: #552e00;
 }
 
-.video-about {
-	display: block;
-	height: auto;
-	overflow: hidden;
-	position: relative;
-	padding-bottom: 56.7%; /* you can change this to match the width/height proportion of the video */
-	background: red;
+.video {
+	background: #e8d6b1;
+	border: .125em solid #ab824d;
+	border-radius: 6.25em;
+	padding: 1em 1.5em;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
 }
 
-.video-about video {
-	left: 50%;
-	max-width: 100%;
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 0;
+.video a {
+	color: #552e00;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
 }

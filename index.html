@@ -31,6 +31,8 @@
   <script src="js/respond.min.js"></script>
   <![endif]-->
 
+  <link rel="stylesheet" href="css/lazyYT.css">
+
   <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
   <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen"/>
 </head>
@@ -173,10 +175,8 @@
       </div> <!-- end row 2 -->
 
       <div class="testimonial text-center">
-        <div class="video-about">
-          <video controls="controls">
-            <source src="video/video-review.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-          </video>
+        <div class="video">
+          <a href="https://youtu.be/WYJaIX279i4?si=8jhuSmPPlJtKhLHn" target="_blank">Смотреть видео</a>
         </div>
       </div>
 
@@ -587,13 +587,13 @@
         </div> <!-- end column 12 -->
       </div><!-- end row 1 -->
 
-      <div class="row text-center">
-        <div class="title join-us">
-          <h2>Got Some Great IDEAS to Start With ?</h2>
-          <p>Let's get together and start building those ideas...</p>
-          <a class="jtbtn" href="#">Contact us </a>
-        </div>
-      </div>
+<!--      <div class="row text-center">-->
+<!--        <div class="title join-us">-->
+<!--          <h2>Got Some Great IDEAS to Start With ?</h2>-->
+<!--          <p>Let's get together and start building those ideas...</p>-->
+<!--          <a class="jtbtn" href="#">Contact us </a>-->
+<!--        </div>-->
+<!--      </div>-->
     </div><!-- end container -->
   </section><!-- end team -->
 
@@ -985,17 +985,17 @@
 
 <!-- SECTION CLOSED -->
 
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/smooth-scroll.js"></script>
-<script src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/jquery.parallax-1.3.1.js"></script>
 <script src="js/jquery.easypiechart.min.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/jquery.jigowatt.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/jquery.unveilEffects.js"></script>
 <script src="js/jquery.isotope.min.js"></script>
+<script src="js/lazyYT.js"></script>
 <script>
   (function ($) {
     var $container = $('.masonry_wrapper'),
@@ -1122,6 +1122,8 @@
     $('.navbar-collapse a').click(function(){
       $(".navbar-collapse").collapse('hide');
     });
+
+    $('.js-lazyYT').lazyYT();
   })
 </script>
 </body>
