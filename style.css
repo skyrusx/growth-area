@@ -2744,3 +2744,33 @@
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
+.nav .contacts {
+	border-left: 1px solid white;
+	padding-left: 15px;
+}
+
+.nav .contacts .contact-item,
+.nav .contacts .contact-item a {
+	text-decoration: unset;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.affix .nav .contacts .contact-item,
+.affix .nav .contacts .contact-item a {
+	color: #e8d6b1;
+}
+
+.affix-top .nav .contacts .contact-item,
+.affix-top .nav .contacts .contact-item a {
+	/*color: #587e1e;*/
+	color: white;
+	text-shadow: black 1px 0 10px;
+}
+
+.affix-top .navbar-default .navbar-nav > .active > a,
+.affix-top .navbar-default .navbar-nav > .active > a:hover,
+.affix-top .navbar-default .navbar-nav > .active > a:focus {
+	text-shadow: black 1px 0 10px;
+}
